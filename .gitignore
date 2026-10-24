@@ -1,0 +1,39 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local package/runtime files and temporary downloads
+.runtime_packages/
+.tmp/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local environment settings and credentials
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated CSV exports
+exports/*.csv
+
+# SQLite sidecar files only; the database itself is intentionally included
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
